@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <rect
+       width="702.75714"
+       height="435.61435"
+       x="17.192827"
+       y="32.412151"
+       id="rect2985"
+       style="fill:none;stroke:#000000;stroke-width:1.09993994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       width="235.71428"
+       height="100"
+       x="250.71426"
+       y="93.790756"
+       id="rect2987"
+       style="fill:none;stroke:#000000" />
+    <rect
+       width="189.73822"
+       height="93.045128"
+       x="38.785984"
+       y="239.71959"
+       id="rect2989"
+       style="fill:none;stroke:#000000;stroke-width:0.85766679" />
+    <rect
+       width="189.73822"
+       height="93.045128"
+       x="38.785984"
+       y="351.81677"
+       id="rect2989-6"
+       style="fill:none;stroke:#000000;stroke-width:0.85766679" />
+    <rect
+       width="189.73822"
+       height="93.045128"
+       x="274.55948"
+       y="239.71959"
+       id="rect3030"
+       style="fill:none;stroke:#000000;stroke-width:0.85766679" />
+    <rect
+       width="189.73822"
+       height="93.045128"
+       x="274.55948"
+       y="351.81677"
+       id="rect3032"
+       style="fill:none;stroke:#000000;stroke-width:0.85766679" />
+    <rect
+       width="189.73822"
+       height="93.045128"
+       x="510.33298"
+       y="239.71959"
+       id="rect3034"
+       style="fill:none;stroke:#000000;stroke-width:0.85766679" />
+    <rect
+       width="189.73822"
+       height="93.045128"
+       x="510.33298"
+       y="351.81677"
+       id="rect3036"
+       style="fill:none;stroke:#000000;stroke-width:0.85766679" />
+    <text
+       x="284.28571"
+       y="123.79076"
+       id="text3038"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="284.28571"
+         y="123.79076"
+         id="tspan3040"
+         style="font-size:28px">nginx proxy</tspan></text>
+    <text
+       x="61.428574"
+       y="268.07648"
+       id="text3042"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="61.428574"
+         y="268.07648"
+         id="tspan3044">knight app</tspan></text>
+    <text
+       x="77.14286"
+       y="379.50504"
+       id="text3046"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="77.14286"
+         y="379.50504"
+         id="tspan3048">postgres</tspan></text>
+    <text
+       x="340"
+       y="266.64792"
+       id="text3050"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="340"
+         y="266.64792"
+         id="tspan3052">SSO</tspan></text>
+    <text
+       x="555.71429"
+       y="270.93359"
+       id="text3054"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="555.71429"
+         y="270.93359"
+         id="tspan3056">badges</tspan></text>
+    <path
+       d="m 362.85714,192.67619 0,46.51484"
+       id="path3058"
+       style="fill:none;stroke:#000000;stroke-width:1.27593863px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 105.65072,234.12797 0,-26.11507 542.98428,0 0,31.55571"
+       id="path3060"
+       style="fill:none;stroke:#000000;stroke-width:0.8728506px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 357.14286,32.110563 0,57.646097"
+       id="path3058-6"
+       style="fill:none;stroke:#000000;stroke-width:1.4204272px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       x="365.71426"
+       y="73.790756"
+       id="text3080"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="365.71426"
+         y="73.790756"
+         id="tspan3082">:80,:443</tspan></text>
+  </g>
+</svg>
