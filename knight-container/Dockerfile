@@ -4,25 +4,27 @@ MAINTAINER Dirk Uys <dirkcuys@gmail.com>
 
 # Install requirements
 RUN apt-get update && apt-get install -y \
+    git-core \
+    libpq-dev \
+    postgresql \
+    postgresql-client \
     python \
     python-dev \
     python-distribute \
     python-pip \
-    git-core \
-    postgresql \
-    postgresql-client \
-    libpq-dev \
-    python-virtualenv
+    python-virtualenv \
+    supervisor
 
-# Setup virtual environment
-RUN virtualenv /var/django-venv
 
 # Setup application
 RUN git clone https://github.com/p2pu/knight-app.git /var/app/ && rm -Rf /var/app/.git/
-RUN /var/django-venv/bin/pip install -r /var/app/requirements.txt
-ADD docker-entry.sh /var/docker-entry.sh
+RUN virtualenv /var/django-venv && /var/django-venv/bin/pip install -r /var/app/requirements.txt
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY docker-entry.sh /docker-entry.sh
 
 EXPOSE 80
 VOLUME /var/app/static_serve
 
-CMD /var/docker-entry.sh
+ENTRYPOINT ["/docker-entry.sh"]
+
+CMD ["supervisord"]
