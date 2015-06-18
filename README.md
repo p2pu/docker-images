@@ -6,6 +6,6 @@ Files for building docker images for P2PU services
 
 ## Shared directory layout
 
-/var/p2pu/volumes/app/postgres/data
-/var/p2pu/volumes/app/static
-/var/p2pu/volumes/app/uploaded
+- /var/p2pu/volumes/app/postgres/data
+- /var/p2pu/volumes/app/static
+- /var/p2pu/volumes/app/uploaded
