@@ -39,4 +39,4 @@ ENV \
 
 ENTRYPOINT ["/docker-entry.sh"]
 
-CMD ["supervisord"]
+CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
