@@ -22,10 +22,12 @@ RUN tar xzf /tmp/master.tar.gz -C /var && rm -rf /tmp/master.tar.gz && mv /var/p
 RUN virtualenv /var/django-venv && /var/django-venv/bin/pip install -r /var/app/requirements.txt
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY docker-entry.sh /docker-entry.sh
+RUN mkdir -p /var/lib/celery && touch /var/lib/celery/beat.db && chmod a+rw /var/lib/celery/beat.db
 
 EXPOSE 80
 
 VOLUME /var/app/static_serve
+VOLUME /var/lib/celery/
 
 # Possible environment variables that can be set
 ENV \
