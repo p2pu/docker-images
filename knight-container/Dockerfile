@@ -25,6 +25,7 @@ COPY docker-entry.sh /docker-entry.sh
 
 EXPOSE 80
 VOLUME /var/app/static_serve
+VOLUME /var/app/upload
 
 ENTRYPOINT ["/docker-entry.sh"]
 
