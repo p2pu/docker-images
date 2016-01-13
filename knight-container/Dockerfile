@@ -16,8 +16,7 @@ RUN apt-get update && apt-get install -y \
 
 
 # Setup application
-#RUN git clone https://github.com/p2pu/knight-app.git /var/app/ && rm -Rf /var/app/.git/
-ADD https://github.com/p2pu/knight-app/archive/master.tar.gz /tmp/master.tar.gz
+ADD https://github.com/p2pu/learning-circles/archive/master.tar.gz /tmp/master.tar.gz
 RUN tar -x -z --xform "s#[^/]*/#app/#" -f /tmp/master.tar.gz -C /var && rm -rf /tmp/master.tar.gz
 RUN virtualenv /var/django-venv && /var/django-venv/bin/pip install -r /var/app/requirements.txt
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
